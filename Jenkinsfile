@@ -1,7 +1,7 @@
 pipeline {
 
     agent {
-        lasbel 'slave3'
+        label 'slave3'
     }
     tools {
         maven 'Maven'
