@@ -37,7 +37,6 @@ pipeline {
                 script{
 //                     kubernetesDeploy configs: 'deploymentservice.yaml', kubeConfig: [path: ''], kubeconfigId: 'kubernetesid', secretName: '', ssh: [sshCredentialsId: '*', sshServer: ''], textCredentials: [certificateAuthorityData: '', clientCertificateData: '', clientKeyData: '', serverUrl: 'https://']
                        kubernetesDeploy (configs: 'deploymentservice.yaml', kubeconfigId: 'kubernetesid')
-
                 }
             }
         }
